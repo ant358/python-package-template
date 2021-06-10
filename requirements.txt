@@ -8,3 +8,5 @@ python-decouple==3.4
 requests==2.25.1
 SQLAlchemy==1.4.14
 urllib3==1.26.4
+flake8==3.9.2
+
