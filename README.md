@@ -27,4 +27,6 @@ Create .env file if needed and make sure it is in gitignore
 
 Create .pypirc file for logging into PyPi and make sure it is in gitignore  
 
+Edit Setup.cfg to add new repo and package name and description  
+
 Start writing tests and files!
