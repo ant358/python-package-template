@@ -30,3 +30,7 @@ Create .pypirc file for logging into PyPi and make sure it is in gitignore
 Edit Setup.cfg to add new repo and package name and description  
 
 Start writing tests and files!
+
+Remember to run ```pip install e .``` again to install locally and update the package, esp' if a new module has been added and pytest cannot import it.  
+
+Add new repop to Codecov
