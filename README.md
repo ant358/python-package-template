@@ -13,13 +13,13 @@ or Bin instead of Scripts on Linux
 ```
 $ python -m pip install --upgrade pip
 ```
+Change the package folder name to project name 
 ```
 $ python -m pip install e .
 ````  
 ```
 $ python -m pip install -r requirements.txt
 ```
-Change the package folder name to project name 
 
 Edit .travis.yml to reflect new folder name python version etc.  
 
@@ -40,9 +40,7 @@ Once first version of package is ready
 then  
 ```python -m build```  
 Next install twine.  
-```python -m pip install --upgrade twine```  
-
-Add .pypirc file to hold API keys for PyPi, and add it to .gitignore  
+```python -m pip install --upgrade twine```   
 
 ```twine upload dist/*```  
 
