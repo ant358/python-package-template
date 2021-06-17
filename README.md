@@ -1,6 +1,6 @@
 # python-package-template
 Directory structure and setup files for standard simple python package. As per https://packaging.python.org/tutorials/packaging-projects/  
-Press Use template button to create a new repostory  
+Press Use template button to create a new repository  
 Clone to local system    
 Edit requirements.txt to suit project  
 ```
