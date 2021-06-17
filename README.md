@@ -1,5 +1,5 @@
 # python-package-template
-Directory structure and setup files for standard simple python package. As per https://packaging.python.org/tutorials/packaging-projects/
+Directory structure and setup files for standard simple python package. As per https://packaging.python.org/tutorials/packaging-projects/  
 Press Use template button to create a new repostory  
 Clone to local system    
 Edit requirements.txt to suit project  
@@ -33,4 +33,19 @@ Start writing tests and files!
 
 Remember to run ```pip install e .``` again to install locally and update the package, esp' if a new module has been added and pytest cannot import it.  
 
-Add new repop to Codecov
+Add new repo to Codecov.  
+  
+Once first version of package is ready  
+```python -m pip install --upgrade build```  
+then  
+```python -m build```  
+Next install twine.  
+```python -m pip install --upgrade twine```  
+
+Add .pypirc file to hold API keys for PyPi, and add it to .gitignore  
+
+```twine upload dist/*```  
+
+
+
+
